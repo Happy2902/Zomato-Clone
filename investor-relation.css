@@ -196,9 +196,27 @@ html{
 }
 .btn-result{
     padding-top: 2.5%;
+       background-color: #fcfcfc; 
+    color: #fff; 
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease, color 0.3s ease;
+  }
+  
+  .button:hover {
+    background-color: #f81111; 
+    color: #fff; 
+  }
+  
+  /  .button .button-icon img {
+    width: 16px;
+    height: 16px;
+    margin-right: 15px; 
     
-    
-}
+  }
+
 .button{
     border: none;
     padding: 0.5% 1.4%;
